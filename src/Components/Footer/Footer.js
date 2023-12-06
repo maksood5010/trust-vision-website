@@ -1,4 +1,13 @@
 function Footer() {
+
+    const goToGoogleMaps = () => {
+        // Replace the latitude and longitude values with the desired location
+        const latitude = 25.2326705;
+        const longitude = 55.3195453;
+    
+        // Open Google Maps in a new tab with the specified location
+        window.open(`https://maps.app.goo.gl/rJkc6zdfKDURa2xWA`);
+      };
     return (
         <footer className="footer" style={{marginBottom: "-50px"}}>
             <div className="footer-primary">
@@ -56,7 +65,7 @@ function Footer() {
                                     <li className="color-body"> Al Ain, UAE, P.O Box 88370.</li>
                                 </ul>
                                 <div className="d-flex align-items-center">
-                                    <a href="#" className="btn btn__primary btn__link mr-30">
+                                    <a href="#" onClick={goToGoogleMaps} className="btn btn__primary btn__link mr-30">
                                         <i className="icon-arrow-right"></i> <span>Get Directions</span>
                                     </a>
                                     <ul className="social-icons list-unstyled mb-0">

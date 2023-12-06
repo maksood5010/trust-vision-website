@@ -20,23 +20,19 @@ function FloatingMenu() {
                 <div className="nd3 nds">
                     {/* <img className="reminder" src="//ssl.gstatic.com/bt/C3341AA7A1A076756462EE2E5CD71C11/1x/ic_reminders_speeddial_white_24dp.png" /> */}
 
-                    <a className="reminder" href="tel:6177787312" >
+                    <a className="reminder" href="tel:+97137011888" >
                     <LuPhone size={25} color='white'/>
                     </a>
                 </div>
 
                 <div className="nd1 nds">
-                    <a className="reminder" href="https://wa.me/+971553562018">
+                    <a className="reminder" href="https://wa.me/+97137011888">
                     <FaWhatsapp  size={25} color='white'/>
                     </a>
                 </div>
+                
                 <div className="nd2 nds">
-                    <a className="reminder" href="https://wa.me/+971553562018">
-                    <LuInstagram   size={25} color='white'/>
-                    </a>
-                </div>
-                <div className="nd4 nds">
-                    <a className="reminder" href="https://wa.me/+971553562018">
+                    <a className="reminder" href="https://ae.linkedin.com/company/trust-vision-investment">
                     <FaLinkedinIn    size={25} color='white'/>
                     </a>
                 </div>

@@ -1,8 +1,12 @@
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import { Container } from 'react-bootstrap';
+
 function Stats() {
 
     return (
         <section className="bg-white">
-            <div className="container">
+            <Container>
                 <div className="heading-layout2">
                     <h3 className="heading__title mb-30">Touching Lives Across the World<br />Our Healthcare Presence in Region</h3>
                 </div>
@@ -12,32 +16,42 @@ function Stats() {
                     to You.
                 </p>
 
-                <div className="row align-items-center" style={{ display: 'contents' }}>
-                    <div className="card shadow-sm animate animate-card border-box">
-                        <div style={{ padding: '10px' }}>
-                            <h4>
-                                290000<br />
-                                <small>Patients</small>
-                            </h4>
+                <Row>
+                    <Col lg={4}>
+                        <div className="card shadow-sm animate animate-card border-box" style={{marginLeft: "-15px"}}>
+                            <div style={{ padding: '10px' }}>
+                                <h4>
+                                    290000<br />
+                                    <small>Patients</small>
+                                </h4>
+                            </div>
                         </div>
-                    </div>
-                    <div className="card shadow-sm animate animate-card border-box">
-                        <div style={{ padding: '10px' }}>
-                            <h4>
-                                138<br />
-                                <small>Doctors</small>
-                            </h4>
+                    </Col>
+                    <Col lg={4}>
+                        <div className="card shadow-sm animate animate-card border-box" style={{marginLeft: "-15px"}}>
+                            <div style={{ padding: '10px' }}>
+                                <h4>
+                                    138<br />
+                                    <small>Doctors</small>
+                                </h4>
+                            </div>
                         </div>
-                    </div>
-                    <div className="card shadow-sm animate animate-card border-box">
-                        <div style={{ padding: '10px' }}>
-                            <h4>
-                                43<br />
-                                <small>Clinics</small>
-                            </h4>
+                    </Col>
+                    <Col lg={4}>
+                        <div className="card shadow-sm animate animate-card border-box" style={{marginLeft: "-15px"}}>
+                            <div style={{ padding: '10px' }}>
+                                <h4>
+                                    43<br />
+                                    <small>Clinics</small>
+                                </h4>
+                            </div>
                         </div>
-                    </div>
-                    <div className="card shadow-sm animate animate-card border-box">
+                    </Col>
+                </Row>
+                <Row >
+                <Col lg={4}></Col>
+                    <Col lg={4}>
+                    <div className="card shadow-sm animate animate-card border-box" style={{marginLeft: "-15px"}}>
                         <div style={{ padding: '10px' }}>
                             <h4>
                                 5<br />
@@ -45,8 +59,11 @@ function Stats() {
                             </h4>
                         </div>
                     </div>
-                </div>
-            </div>
+                    </Col>
+                    <Col lg={4}></Col>
+                </Row>
+
+            </Container>
         </section>
     )
 
