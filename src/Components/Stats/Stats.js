@@ -18,7 +18,7 @@ function Stats() {
 
                 <Row>
                     <Col lg={4}>
-                        <div className="card shadow-sm animate animate-card border-box" style={{marginLeft: "-15px"}}>
+                        <div className="card shadow-sm animate animate-card border-box" >
                             <div style={{ padding: '10px' }}>
                                 <h4>
                                     290000<br />
@@ -28,7 +28,7 @@ function Stats() {
                         </div>
                     </Col>
                     <Col lg={4}>
-                        <div className="card shadow-sm animate animate-card border-box" style={{marginLeft: "-15px"}}>
+                        <div className="card shadow-sm animate animate-card border-box" >
                             <div style={{ padding: '10px' }}>
                                 <h4>
                                     138<br />
@@ -38,7 +38,7 @@ function Stats() {
                         </div>
                     </Col>
                     <Col lg={4}>
-                        <div className="card shadow-sm animate animate-card border-box" style={{marginLeft: "-15px"}}>
+                        <div className="card shadow-sm animate animate-card border-box" >
                             <div style={{ padding: '10px' }}>
                                 <h4>
                                     43<br />
@@ -51,7 +51,7 @@ function Stats() {
                 <Row >
                 <Col lg={4}></Col>
                     <Col lg={4}>
-                    <div className="card shadow-sm animate animate-card border-box" style={{marginLeft: "-15px"}}>
+                    <div className="card shadow-sm animate animate-card border-box" >
                         <div style={{ padding: '10px' }}>
                             <h4>
                                 5<br />
