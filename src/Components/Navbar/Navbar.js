@@ -20,8 +20,8 @@ function Navbar({ onComponentChange }) {
         <nav className="navbar navbar-expand-lg sticky-navbar">
             <div className="container-fluid">
                 <a className="navbar-brand" href="index.html">
-                    <img src="assets/images/logo/LogoTVI.png" className="logo-light tvilogo" alt="logo" style={{ maxHeight: '60px', marginLeft: '110px' }} />
-                    <img src="assets/images/logo/LogoTVI.png" className="logo-dark tvilogo" style={{ maxHeight: '80px'}} />
+                    <img src="assets/images/logo/LogoTVI.jpg" className="logo-light tvilogo" alt="logo" style={{ height: '90px', marginLeft: '110px' }} />
+                    <img src="assets/images/logo/LogoTVI.jpg" className="logo-dark tvilogo" style={{ maxHeight: '80px'}} />
                 </a>
                 <button className="navbar-toggler" type="button">
                     <span className="menu-lines"><span></span></span>

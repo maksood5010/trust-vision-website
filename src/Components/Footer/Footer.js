@@ -15,7 +15,7 @@ function Footer() {
                     <div className="row">
                         <div className="col-sm-12 col-md-12 col-lg-3">
                             <div className="footer-widget-about">
-                                <img src="assets/images/logo/LogoTVI.png" alt="logo" className="mb-30" style={{width: "100px"}}/>
+                                <img src="assets/images/logo/LogoTVI.jpg" alt="logo" className="mb-30" style={{width: "100px"}}/>
                                 <p className="color-gray">
                                     Our goal is to deliver quality of care in a courteous, respectful, and compassionate manner. We hope you will allow us to care for you and strive to be the first and best choice for your family healthcare.
                                 </p>

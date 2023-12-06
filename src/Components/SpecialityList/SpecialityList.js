@@ -5,73 +5,88 @@ function SpecialityList() {
     const specialities = [
         {
             title: 'General Medicine',
-            icon: 'icon-heart',
+            icon: 'FaStethoscope',
             image: 'assets/images/services/general_medicine.jpg',
         },
         {
             title: 'Psychology',
-            icon: 'icon-doctor',
+            icon: 'FaYinYang',
             image: 'assets/images/services/psychology.jpg',
         },
         {
             title: 'General Surgery',
-            icon: 'icon-ambulance',
+            icon: 'FaUserMd',
             image: 'assets/images/services/general_surgery.jpg',
         },
         {
             title: 'Cosmetic Surgery',
-            icon: 'icon-drugs',
+            icon: 'FaVenus',
             image: 'assets/images/services/cosmetic_surgery.jpg',
         },
         {
             title: 'Ophthalmology',
-            icon: 'icon-first-aid-kit',
+            icon: 'FaHeadSideCough',
             image: 'assets/images/services/opthalmology.jpg',
         },
         {
             title: 'Physiotherapy',
-            icon: 'icon-hospital',
+            icon: 'FaRunning',
             image: 'assets/images/services/physiotherapy.jpg',
         },
         {
             title: 'Otolaryngology',
-            icon: 'icon-expenses',
+            icon: 'FaHospital', // Updated icon
             image: 'assets/images/services/otolaryngology.jpg',
         },
         {
             title: 'Orthopedics',
-            icon: 'icon-bandage',
+            icon: 'FaBone',
             image: 'assets/images/services/orthopedics.jpg',
         },
         {
             title: 'Gynaecology',
-            icon: 'icon-bandage',
+            icon: 'FaFemale',
             image: 'assets/images/services/obstetrics_gynaecology.jpg',
         },
         {
             title: 'Cardiology',
-            icon: 'icon-bandage',
+            icon: 'FaHeart',
             image: 'assets/images/services/cardilogy.jpg',
         },
         {
             title: 'Dentistry',
-            icon: 'icon-bandage',
+            icon: 'FaTooth',
             image: 'assets/images/services/dentistry.jpg',
         },
         {
             title: 'Dermatology',
-            icon: 'icon-bandage',
+            icon: 'FaRegSun',
             image: 'assets/images/services/dermatology.jpg',
         },
         {
             title: 'Internal Medicine',
-            icon: 'icon-bandage',
+            icon: 'FaClinicMedical', // Updated icon
             image: 'assets/images/services/internal_medicine.jpg',
         },
         {
             title: 'Neurology',
-            icon: 'icon-bandage',
+            icon: 'FaBrain', // Updated icon
             image: 'assets/images/services/neurology.jpg',
+        },
+        {
+            title: 'Speech Therapy',
+            icon: 'FaMicrophone', // Updated icon
+            image: 'assets/images/services/Speech Therapy.jpg',
+        },
+        {
+            title: 'Occupational Therapy',
+            icon: 'FaHandshake', // Updated icon
+            image: 'assets/images/services/Occupational Therapy.jpg',
+        },
+        {
+            title: 'Psychiatry',
+            icon: 'FaMeh', // Updated icon
+            image: 'assets/images/services/Psychiatry.jpg',
         },
     ];
 
